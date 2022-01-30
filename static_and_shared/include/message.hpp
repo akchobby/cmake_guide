@@ -7,13 +7,15 @@
 class Message{
 
 	public :
+		Message();
 		Message(std::string msg);
+		
 		~Message();
 		friend std::ostream& operator<<(std::ostream& os, const Message& msg);
 	
 	private :
 
-		std::string val="Default msg";
+		std::string val;
 
 
 

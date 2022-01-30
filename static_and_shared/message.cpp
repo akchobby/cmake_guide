@@ -4,6 +4,9 @@ Message::Message(std::string msg){
 	val = msg;
 }
 
+Message::Message(){
+	val= "Default msg";
+}
 
 Message::~Message(){
 }
